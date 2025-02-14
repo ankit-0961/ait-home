@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating three columns layout-float-property-css</title>
+    <style>
+        section,div{
+            border: 1px solid red;
+            margin: 10px;
+            padding: 10px;
+        }   
+        /*layout property */
+        section{
+            float:left;
+            width:100%;
+            box-sizing: border-box;
+            
+        }
+        div{
+            float: left;
+            width:19.3%;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- to load container / row / parent tag -->
+    <section>
+        <!-- to load item /column/children -->
+         <div>product-1</div>
+         <div>product-2</div>
+         <div>product-3</div>
+         <div>product-4</div>
+    </section>
+    
+</body>
+</html>

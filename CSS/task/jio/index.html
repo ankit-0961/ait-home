@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating-jio app</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Header starts here --> 
+     <header>
+        <div>
+            <img src="data:image/png;base64,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">
+        </div>
+        <nav>
+            <ul type="none">
+                <li>
+                    <a href="">mobile</a>
+                </li>
+                <li>
+                    <a href="">true 5g</a>
+                </li>
+                <li>
+                   <a href="">jiofiber</a>
+                </li>
+                <li>
+                    <a href="">airfiber</a>
+                </li>
+                <li>
+                    <a href="">business</a>
+                </li>
+                <li>
+                    <a href="">device</a>
+                <li>
+                    <a href="">apps</a>
+                </li>
+                <li>
+                    <a href="">support</a>
+                </li>
+            </ul>
+        </nav>
+      </header>   
+     <!--Header ends here-->
+     <!-- banner section starts here -->
+    <section>
+        <img src="https://jep-asset.akamaized.net/cms/assets/airfiber/exclusive-offer-desktop-16-12-2024.webp">
+    </section>
+     <!-- banner section ends here -->
+      <section >
+        <h4 class="fgghvg"> get set,connect</h4>
+        <button>mobile</button>
+        <button>airfiber/fiber</button>
+
+     </section>
+     <section >
+        <div class="1">
+          <div >
+              <h4>prepaid</h4>
+          </div>
+          <div >
+              <h4>postpaid</h4>
+          </div>
+        </div>
+        <div class="2"> 
+         <div>
+            <input type="text" name="phone number"placeholder="phone number">
+            <button>recharge</button>
+         </div>
+
+        </div>
+
+     </section>
+
+     <nav 2>
+        <ul>
+            <li>
+                <a href="">get airfiber</a>
+            </li>
+            <li>
+                <a href="">get jiosim</a>
+            </li>
+            <li>
+                <a href="">get jio fiber</a>
+            </li>
+            <li>
+                <a href="">port to jio</a>
+            </li>
+            <li>
+                <a href="">choice number</a>
+            </li>
+            <li>
+                <a href="">support</a>
+            </li>
+            <li>
+                <a href="">get jiofiber</a>
+            </li>
+        </ul>
+
+     </nav>
+     <section>
+      
+        <div class="bg-img-1">
+
+           <button>true 5g</button>
+           <h2>celebrate your 5g life</h2>
+           <h4>forget lagging,forget buffering-enjoy unlimited digital experiences on the go.</h4>
+           <button>upgrade now</button>
+        </div>
+
+     </section>
+     <section>
+        <h2>check outs india's current favourites </h2>
+           <h4>jio's suite of apps powers india's digital life,and these are the ones everyone's loving right now.</h4>
+     </section>
+
+     <section> 
+        <!-- <img src="https://jep-asset.akamaized.net/cms/assets/home/new-homepage/myjio-l-04.webp" alt=""> -->
+
+        <div class="bg-img-2">
+
+            <h3>MY JIO</h3>
+    
+            <h2>love jio? you will love it more with myjio</h2>
+            <h4>recharge,stream,shop,pay and do much more with super app.</h4>
+            <button>download</button>
+            <button>know more</button>
+        </div>
+   
+     </section> 
+     <section>
+        <div class="bg-img-3">
+        <h4>jiofinance</h4>
+        <h2>now invest as little as ₹10 in gold</h2>
+        <h3>excited? check smartgold on the jiofinance app and invest in a matter of a few clicks.</h3>
+
+        <button>knowmore</button>
+
+        </div>
+
+     </section>
+     <section>
+        <div class="bg-img-4">
+        <h4>jiocloud</h4>
+        <h2>make memories out of everyday moments</h2>
+        <h3>store and access your photos,videos,and documents anytime,anywhere.</h3> 
+
+        <button>knowmore</button>
+        </div>
+     </section>
+     <section>
+        <h2>good news! getting started with a new jio number just got faster</h2>
+        <h4>now,don't just oreder your new jio sim and wait. complete self-KYC from the comfort of your home online and get your SIM delivered for free.</h4>
+     </section>
+     <section>
+        <div class="video-1">
+            <video controls >
+                <source src="https://jep-asset.akamaized.net/cms/assets/home/ekyc-video-animation.mp4">
+                
+            </video>
+
+        </div>
+        <button>get jiosim</button>
+     </section>
+
+     
+
+</body>     
+</html>

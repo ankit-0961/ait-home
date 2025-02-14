@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create achievers it page with properties</title>
+    <style>
+         header section{ 
+            display: flex;
+            border: 2px solid red;
+        }
+         header section ul{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        header section img{
+            width: 135px;
+             height: 100px; 
+        }
+         header section ul li a{ 
+             margin: 10px 15px; 
+            /* flex: 1; */
+            /* justify-content: space-evenly; */
+        }
+        /* header section div ul{
+            display: flex;
+            justify-content: space-around;
+        } */
+        header section div ul li a{
+            text-decoration: none;
+        }
+        .banner{
+            background-image: url("https://www.achieversit.com/assets/images/full_stack_development.jpg");
+            background-size: cover;
+         }
+         
+        .banner div{
+            padding: 10px;
+            margin: 10px;
+            width: 452px;
+         } 
+         .banner .secondDiv{
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            top: 100px;
+         } 
+
+        .second-div{
+            border: 2px solid green;
+            background-color: white;
+            transform: scale(1);
+            width: 500px;
+        }
+        .second-div:nth-child(1):hover{
+            background-color: blue;
+            transform: scale(1.2);
+            /* width: 200px; */
+            /* margin: 40px 300px; */
+
+            
+        }
+        .second-div:nth-child(2):hover{
+            background-color: orangered;
+            transform: scale(1.2);
+            /* width: 200px;
+            margin: 40px 300px;    */
+        }
+        .second-div:nth-child(3):hover{
+            background-color: blue;
+            transform: scale(1.2);
+            /* width: 200px;
+            margin: 40px 300px; */
+        }
+
+
+
+          /* .banner div{
+            border: 1px solid red;
+            margin: 10px 5px;
+            padding: 10px 5px; */
+
+        /* } */
+     
+
+
+    </style>
+</head>
+<body>
+    <!-- Header portion start here -->
+     <header>
+        <section>
+            <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="">
+            <div>
+                <ul type="none">
+                    <li>
+                        <a href="">all courses</a>
+                    </li>
+                    <li>
+                        <a href="">placements</a>
+                    </li>
+                     <li>
+                        <a href="">internship</a>
+                    </li> 
+                    <li>
+                        <a href="">existing students</a>
+                    </li> 
+                    <li>
+                        <a href="">about us</a>
+                    </li> 
+                    <li>
+                        <a href="">reviews</a>
+                    </li>
+                     <li>
+                        <a href="">blog</a>
+                    </li> 
+          </div>
+                </ul>
+         </section>
+     </header>
+     <!-- Header portion ends here -->
+      <!-- Banner portion starts here -->
+       <section class="banner">
+
+        <!-- <img src="https://www.achieversit.com/assets/images/full_stack_development.jpg" alt=""> -->
+        <div class="middle-section">
+            
+            <h4>PYTHON DEVELOPMENT COURSE</h4>
+            <button>EXPLORE COURSE</button>
+            <Button>CONTACT US</Button>
+        </div>
+        <div class="secondDiv">
+            <div class="second-div">BECOME A UI DEVELOPER</div>
+            <div class="second-div">BECOME A ANGULAR DEVELOPER</div>
+            <div class="second-div">BECOME A REACT JS DEVELOPER</div>
+        </div>
+       </section>
+       <!-- Banner portion end here  -->
+       <!-- <section>
+             <!-- card section starts here -->
+
+             <!-- <div class="card">
+      
+              <div>BECOME A UI DEVELOPER</div>
+              <div>BECOME A ANGULAR DEVELOPER</div>
+              <div>BECOME A REACT JS DEVELOPER</div>
+             </div> -->
+             <!-- card section ends here --> 
+         <!-- </section> -->
+</body> 
+</html>

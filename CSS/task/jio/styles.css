@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    border: 2px solid black;
+     background-color: blue; 
+}
+header{
+    flex: 2;
+}
+header div img  {
+    width: 135px; 
+    height: 65px; 
+    
+
+}
+header nav{
+    flex: 8;
+
+}
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+header nav ul li a {
+    text-decoration: none;
+}
+section .fgghvg{
+    text-align: center;
+
+}
+section button{
+    text-align: center;
+}
+
+.bg-img-2{
+    background-image: url("https://jep-asset.akamaized.net/cms/assets/home/new-homepage/myjio-l-04.webp");
+    height: 500px;
+}
+.bg-img-1{
+   background-image: url("https://jep-asset.akamaized.net/cms/assets/new-home/2025/feb/true-5g-m.webp");
+   height:500px;
+   color: white;
+}
+.bg-img-3{
+   background-image: url("https://jep-asset.akamaized.net/cms/assets/new-home/2025/feb/JFS%20-%20M.webp");
+   height: 600px;
+}
+.bg-img-4{
+    background-image: url("https://jep-asset.akamaized.net/cms/assets/home/new-homepage/cloud-m-04.webp");
+    height: 500px;
+}
+.video{
+    height: 300px;
+    width: 300px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition-css3</title>
+    <style>
+        section{
+            border: 1px solid red;
+            padding: 10px;
+            margin: 10px;
+        }
+        section:nth-child(1){
+            background-color:pink;
+             transform: translate(10px,200px); 
+    
+        }
+        section:nth-child(2){
+            background-color: brown;
+            width: 200px;
+            margin: 40px 200px;
+            transition-property:transform;
+            transition-duration:1s ;
+            transition-delay:4s ;
+            transition-timing-function: linear;
+
+        }
+        section:nth-child(2):hover{
+            transform:rotate(90deg) ;
+            /* height: 90px; */
+            /* text-align: center; */
+            /* line-height: 90px; */
+             
+        }
+        section:nth-child(3){
+            background-color:yellow;
+            width: 200px;
+            transform: rotate(45deg);
+        }
+        section:nth-child(4){
+            background-color:green;
+            transform: skew(45deg);
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <section>transform:translate()</section>
+    <section>transform:scale()</section>
+    <section>transform:rotate()</section>
+    <section>transform:skew()</section>
+
+</body>
+</html>

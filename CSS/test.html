@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-selectors-css</title>
+    <style>
+       section {
+        border: 2px solid red;
+        margin: 40px 50px 50px 40px;
+        padding: 20px;
+       } 
+      
+      /* pseudo-class and element state */
+      section:hover {
+        background-color: red;
+      }
+      
+      /* first-child */
+      section:first-child {
+        background-color: pink;
+      }
+      
+      /* last-child */
+      section:last-of-type {
+        color: blue;
+        background-color: skyblue;
+      }
+    </style>
+    <body>
+
+    <section>ankit</section>
+    <section>om</section>
+    <section>krishna</section>
+    <section>rahul</section>
+    <section>deepak</section>
+</body>
+</html>

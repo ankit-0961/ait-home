@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-selectors-css</title>
+    <style>
+       section{
+        border: 2px solid red;
+        margin: 40px 50px 50px 40px;
+        padding: 20px;
+       } 
+      /*pseudo  class and element state */
+        section:hover{
+        background-color: red
+        }
+      /*first-child */
+        section:first-child{
+        background-color:pink;
+       }
+      /*last-child */
+        section:last-child{
+        background-color:blue;
+        }
+      /*nth-child */
+       section:nth-child(3){
+        background-color: brown;
+        border-radius:30px;
+       }
+       /*pseudo element:represent(::double colon) and element state */
+       
+       section:before{
+        content: 'hello, i am  ' ;
+       }
+       
+       section::after{
+        content: '. i am a full stack developer.' ;
+       }
+       section::first-letter{
+         color: aqua;
+         font-size: 40px;
+       }
+       p::first-line{
+        text-decoration: line-through;
+        color: red;
+        background-color: black;
+       }
+
+
+       input::placeholder{
+        color:green;
+       }
+
+
+
+    </style>
+</head>
+<body>
+    <section>ankit</section>
+    <section>om</section>
+    <section>krishna</section>
+    <section>ram</section>
+    <section>rahul</section>
+    <input type="text" name="" placeholder="enter your name">
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores reprehenderit 
+      vitae cumque facilis praesentium tenetur eligendi explicabo itaque corporis libero 
+      consequuntur a ut velit eaque perspiciatis, doloribus porro ab accusantium! Lorem 
+      ipsum dolor sit amet consectetur adipisicing elit. Nemo iure laborum repellat eaque et.
+       Culpa ducimus nobis voluptate quis, inventore possimus maxime, ab repellat 
+       recusandae iure vitae porro. Tempore, praesentium. Lorem ipsum dolor sit amet consectetur 
+       adipisicing elit. Quidem perspiciatis, officiis aspernatur fugiat deleniti
+        a quaerat ut ipsam earum ratione! Incidunt laboriosam natus quia officia
+         obcaecati eum numquam nostrum recusandae. Lorem, ipsum dolor sit amet 
+         consectetur adipisicing elit. Laudantium voluptatem corrupti eum nam autem repellat rerum! 
+         Impedit beatae excepturi nemo architecto nam, quia labore, fuga, ut quas doloribus placeat perferendis!</p>
+
+</body>
+</html>

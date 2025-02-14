@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position-2 css</title>
+    <style>
+        section{
+            border: 1px solid red;
+            margin: 10px;
+            padding:10px;
+        }
+        .static{
+            background-color: green;
+        }
+        .absolute{
+            background-color: orangered;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+        .relative{
+            background-color: pink;
+            position: relative;
+            left: 10px;
+            top:10px;
+        }
+        .fixed{
+            background-color: blue;
+            position: fixed;
+         }
+        .sticky{
+            background-color:skyblue ;
+            position: sticky;
+        }
+    </style>
+    
+</head>
+<body>
+    <section class="static">static</section>
+    <section class="absolute">absolute</section>
+    <section class="fixed">fixed</section>
+    <section class="relative">relative</section>
+    <section class="sticky">sticky</section>
+</body>
+</html>
